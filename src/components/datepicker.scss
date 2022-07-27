@@ -1,0 +1,68 @@
+.MuiPickersBasePicker-pickerView {
+  background-color: #404050 !important;
+  color: #fff !important;
+}
+.MuiIconButton-label {
+  color: #fff !important;
+}
+
+.MuiPickersDay-daySelected {
+  background-color: #ffcd2c !important;
+  border-radius: 10px !important;
+  & .MuiIconButton-label {
+    color: #000 !important;
+  }
+}
+.MuiIconButton-root {
+  padding: 0px !important;
+  border-radius: 10px !important;
+}
+.MuiPickersCalendarHeader-daysHeader {
+  border-top: 1px solid #6a6a78 !important;
+  border-bottom: 1px solid #6a6a78 !important;
+  max-height: none !important;
+}
+.MuiSvgIcon-root {
+  border: 1px solid #fff !important;
+  background-color: none !important;
+  border-radius: 50% !important;
+}
+.MuiPickersCalendarHeader-iconButton {
+  background-color: transparent !important;
+}
+.MuiPickersCalendarHeader-dayLabel {
+  color: #6a6a78 !important;
+}
+
+.MuiPickersCalendarHeader-switchHeader {
+  margin: 4px 8px 10px !important;
+}
+.MuiInputLabel-formControl {
+  color: #6a6a78 !important;
+  background-color: #404050 !important;
+  margin-left: -3px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.Mui-focused {
+  color: #6a6a78 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: gray !important;
+  .MuiOutlinedInput-notchedOutline:hover {
+    border-color: #ffcd2c !important;
+  }
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #ffcd2c !important;
+  border-radius: 4px !important;
+}
+
+.MuiFormControl-root {
+  background-color: #404050 !important;
+  border-radius: 6px;
+}
+.MuiInputBase-root {
+  color: #fff !important;
+}

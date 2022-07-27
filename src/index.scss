@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  @media screen and (max-height: 450px) {
+    .sidebar a {
+      font-size: 18px;
+    }
+  }
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
