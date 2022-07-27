@@ -7,12 +7,12 @@ function App() {
   return (
     <div className=" m-10 grid grid-flow-row gap-3">
       {" "}
-      {/* <SingleDatePicker />
+      <SingleDatePicker />
       <Button className=" bg-red-400 py-5" type="button">
         Click Me
       </Button>
       <Toggle />
-      <div className="">
+      {/* <div className="">
         <Modal />
       </div> */}
       <SideNavbar />
